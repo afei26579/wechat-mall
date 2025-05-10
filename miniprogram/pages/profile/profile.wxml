@@ -1,0 +1,20 @@
+<view class="profile-container">
+  <view class="profile-header">
+    <text class="profile-title">个人信息</text>
+  </view>
+  <view class="profile-info">
+    <view class="profile-item">
+      <text class="profile-label">用户名:</text>
+      <text class="profile-value">{{username}}</text>
+    </view>
+    <view class="profile-item">
+      <text class="profile-label">邮箱:</text>
+      <text class="profile-value">{{email}}</text>
+    </view>
+    <view class="profile-item">
+      <text class="profile-label">电话:</text>
+      <text class="profile-value">{{phone}}</text>
+    </view>
+  </view>
+  <button class="edit-button" bindtap="editProfile">编辑信息</button>
+</view>

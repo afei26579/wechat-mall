@@ -1,0 +1,20 @@
+<view class="cart">
+  <view class="cart-header">
+    <text>购物车</text>
+  </view>
+  <view class="cart-items">
+    <block wx:for="{{cartItems}}" wx:key="index">
+      <view class="cart-item">
+        <product-card product="{{item}}" />
+        <view class="item-quantity">
+          <text>数量: {{item.quantity}}</text>
+        </view>
+        <button bindtap="removeFromCart" data-index="{{index}}">移除</button>
+      </view>
+    </block>
+  </view>
+  <view class="cart-total">
+    <text>总价: {{totalPrice}} 元</text>
+  </view>
+  <button bindtap="checkout">结算</button>
+</view>

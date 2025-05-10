@@ -1,0 +1,32 @@
+.product-container {
+    padding: 20rpx;
+    background-color: #f8f8f8;
+}
+
+.product-title {
+    font-size: 32rpx;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10rpx;
+}
+
+.product-price {
+    font-size: 28rpx;
+    color: #e54d42;
+    margin-bottom: 20rpx;
+}
+
+.product-description {
+    font-size: 24rpx;
+    color: #666;
+    line-height: 1.5;
+}
+
+.add-to-cart {
+    background-color: #e54d42;
+    color: #fff;
+    padding: 10rpx 20rpx;
+    border-radius: 5rpx;
+    text-align: center;
+    font-size: 28rpx;
+}

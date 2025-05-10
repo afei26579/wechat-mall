@@ -1,0 +1,36 @@
+/wechat-mall/wechat-mall/miniprogram/app.wxss
+/* 全局样式文件 */
+
+/* 设置全局字体 */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* 设置全局背景颜色 */
+page {
+    background-color: #f8f8f8;
+}
+
+/* 设置全局边距 */
+.container {
+    padding: 20px;
+}
+
+/* 按钮样式 */
+.button {
+    background-color: #007aff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* 输入框样式 */
+.input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+}
+
+/* 其他全局样式可以在这里添加 */

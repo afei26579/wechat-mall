@@ -1,0 +1,35 @@
+/* 首页样式文件 */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20rpx;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    font-size: 32rpx;
+    font-weight: bold;
+    margin-bottom: 20rpx;
+}
+
+.product-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-card {
+    width: 48%;
+    margin-bottom: 20rpx;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    font-size: 24rpx;
+    margin-top: 20rpx;
+}

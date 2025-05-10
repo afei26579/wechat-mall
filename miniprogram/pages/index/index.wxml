@@ -1,0 +1,13 @@
+<view class="container">
+  <view class="header">
+    <text class="title">欢迎来到商城</text>
+  </view>
+  <view class="product-list">
+    <block wx:for="{{products}}" wx:key="index">
+      <product-card product="{{item}}"></product-card>
+    </block>
+  </view>
+  <view class="footer">
+    <button bindtap="goToCart">购物车</button>
+  </view>
+</view>
